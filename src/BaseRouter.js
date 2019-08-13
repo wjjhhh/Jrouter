@@ -10,4 +10,5 @@ export default class BaseRouter {
     ele = ele ? ele : this.list.find(ele => ele.path === '*')
     this.page.innerText = ele.component
   }
+  
 }
